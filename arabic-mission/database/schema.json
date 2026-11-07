@@ -1,0 +1,10 @@
+{
+  "database": "Arabic Mission",
+  "type": "Google Sheets",
+  "sheets": {
+    "Users": ["user_id", "full_name", "email", "password_salt", "password_hash", "role", "status", "created_at", "updated_at", "last_login"],
+    "UserProgress": ["user_id", "progress_json", "total_xp", "completed_missions", "updated_at"],
+    "MissionResults": ["result_id", "user_id", "mission_id", "score", "passed", "xp_earned", "answers_json", "completed_at"],
+    "ActivityLogs": ["log_id", "user_id", "event_type", "details_json", "created_at"]
+  }
+}
